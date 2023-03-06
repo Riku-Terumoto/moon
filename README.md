@@ -92,7 +92,7 @@ Android Studioに戻り、More Actions > Virtual Device Managerをクリック�
 
 設定を終え、emulatorが起動したら完了。
 
-## 6 プロジェクト起動
+## 7 プロジェクト起動
 
 プロジェクトディレクトリまで移動し、下記コマンドを実行。
 

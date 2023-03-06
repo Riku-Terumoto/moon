@@ -96,6 +96,8 @@ Android Studioに戻り、More Actions > Virtual Device Managerをクリック�
 
 プロジェクトディレクトリまで移動し、下記コマンドを実行。
 
+プロジェクト作成者のアカウントでログイン必須
+
 `npx expo start`
 
 サーバーが立ち上がったら、

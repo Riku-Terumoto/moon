@@ -7,14 +7,14 @@ https://nodejs.org/en/
 ## 2 yarnのインストール
 下記コマンドを実行。
 
-npm install -g yarn
+`npm install -g yarn`
 
 ## 3 Watchmanのインストール
 下記コマンドを実行。
 
-brew update
+`brew update`
 
-brew install watchman
+`brew install watchman`
 
 ## 4 expoのアカウント作成
 下記URLでアカウントを作成する
@@ -23,7 +23,7 @@ https://expo.dev/signup
 
 別途配布するURLのQRコードを読み込めば実機で確認できる。
 
-expo publish でQR発行。
+`expo publish` でQR発行。
 
 ただ、iosはプロジェクト作成アカウントでログインしていないと表示できない。
 
@@ -45,7 +45,7 @@ Command Line Toolsが設定されているか確認します。（空で無い�
 
 空だった場合は下記コマンドを実行し、xcodeを再起動。
 
-xcode-select --install
+`xcode-select --install`
 
 Open Developer Tool > Simulatorでシュミレータが立ち上がればOK。
 
@@ -62,17 +62,25 @@ https://developer.android.com/studio
 
 右側に表示されているAndroid SDK Locationのパスをコピーする。
 
-ターミナルでvim ~/.bash_profile または、 ~/.zshrc で環境変数を設定する
+ターミナルで
+
+`vim ~/.bash_profile `
+
+または、 
+
+`vim ~/.zshrc`
+
+で環境変数を設定する
 
 vimがやりづらい場合で、VScodeが入っている方は、ターミナルでルートディレクトリに移動し、code .　を叩くとVScodeで開ける。
 
 下記を設定する。
 
-export ANDROID_SDK_ROOT=/Users/ユーザネーム/Library/Android/sdk
+`export ANDROID_SDK_ROOT=/Users/ユーザネーム/Library/Android/sdk`
 
-export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH
+`export PATH=$ANDROID_SDK_ROOT/platform-tools:$PATH`
 
-export PATH=$ANDROID_SDK_ROOT/emulator:$PATH
+`export PATH=$ANDROID_SDK_ROOT/emulator:$PATH`
 
 Android Studioに戻り、More Actions > Virtual Device Managerをクリック。
 
@@ -88,11 +96,11 @@ Android Studioに戻り、More Actions > Virtual Device Managerをクリック�
 
 プロジェクトディレクトリまで移動し、下記コマンドを実行。
 
-npx expo start
+`npx expo start`
 
 サーバーが立ち上がったら、
 
-「i」を実行するとSimulatorが起動される。
+`i`を実行するとSimulatorが起動される。
 
-「a」が実行するとemulatorが起動される
+`a`が実行するとemulatorが起動される
 

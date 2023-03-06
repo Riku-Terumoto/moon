@@ -90,6 +90,9 @@ Android Studioに戻り、More Actions > Virtual Device Managerをクリック�
 
 npx expo start
 
-サーバーが立ち上がったら、「i」を実行するとSimulatorが起動される。
+サーバーが立ち上がったら、
+
+「i」を実行するとSimulatorが起動される。
+
 「a」が実行するとemulatorが起動される
 

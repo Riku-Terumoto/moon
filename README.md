@@ -22,9 +22,13 @@ brew install watchman
 https://expo.dev/signup
 
 下記URLのQRコードを読み込めば実機で確認できる。
+
 ただ、iosはプロジェクト作成アカウントでログインしていないと表示できない。
+
 androidは確認可能。
+
 プロジェクト用のアカウントを用意するか、プロジェクト作成者のアカウントでログインすることで全員が確認できる。（要相談）
+
 個人から組織用のアカウントに切り替えも可能。
 
 https://exp.host/@rt.plul/moon/index.exp?sdkVersion=48.0.0

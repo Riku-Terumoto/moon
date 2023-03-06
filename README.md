@@ -83,3 +83,12 @@ Android Studioに戻り、More Actions > Virtual Device Managerをクリック�
 
 設定を終え、emulatorが起動したら完了。
 
+## 6 プロジェクト起動
+
+プロジェクトディレクトリまで移動し、下記コマンドを実行。
+
+npx expo start
+
+サーバーが立ち上がったら、「i」を実行するとSimulatorが起動される。
+「a」が実行するとemulatorが起動される
+

@@ -98,7 +98,7 @@ Android Studioに戻り、More Actions > Virtual Device Managerをクリック�
 
 プロジェクト作成者のアカウントでログイン必須
 
-`yarn expo start`
+`npx expo start`
 
 サーバーが立ち上がったら、
 
